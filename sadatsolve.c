@@ -1,4 +1,4 @@
-// probleam number 02
+/ probleam number 1001
 
 #include <stdio.h>
 int main()
@@ -12,31 +12,23 @@ int main()
       return 0;
       
 }
-// probleam number 03
+// probleam number 2764
 
 #include <stdio.h>
-
 int main()
 {
-      int A = 10, B = 9, X;
+    int DD, MM, YYY;
+    // printf("Enter the date: ");
+    scanf("%d/%d/%d", &DD, &MM, &YYY);
 
-      X = A + B;
-
-      printf("X = %d\n", X);
-      A = -10, B = 4;
-      X = A + B;
-
-      printf("X = %d\n", X);
-      A = 15, B = -7;
-      X = A + B;
-
-      printf("X = %d", X);
-
-      return 0;
-      
+    // printf("%d/%d/%d\n",day,month,year);
+    printf("%02d/%02d/%02d\n", MM, DD, YYY);
+    printf("%02d/%02d/%02d\n", YYY, MM, DD);
+    printf("%02d-%02d-%02d\n", DD, MM, YYY);
+    return 0;
 }
 
-// probleam number 04
+// probleam number 1003
 
 #include <stdio.h>
 
@@ -51,7 +43,7 @@ int main()
       
 }
 
-// probleam number 05
+// probleam number 1002
 
 #include <stdio.h>
 int main()
@@ -63,7 +55,7 @@ int main()
       return 0;
       
 }
-// probleam number 06
+// probleam number 2747
 #include <stdio.h>
 int main()
 {
@@ -79,7 +71,7 @@ return 0;
 }
 
 
-// probleam number 07
+// probleam number 2748
 // #include <stdio.h>
 int main()
 {
@@ -93,7 +85,7 @@ int main()
    
 return 0;
 }
-// probleam 08
+// probleam 2749
 #include <stdio.h>
 int main()
 {
@@ -107,4 +99,52 @@ int main()
    printf("---------------------------------------\n");
    
 return 0;
+}
+
+// probleam 2750
+
+int main()
+{
+   printf("---------------------------------------\n");
+   printf("|  decimal  |  octal  |  Hexadecimal  |\n");
+   printf("---------------------------------------\n");
+   printf("|      0    |    0    |       0       |\n");
+   printf("|      1    |    1    |       1       |\n");
+   printf("|      2    |    2    |       2       |\n");
+   printf("|      3    |    3    |       3       |\n");
+   printf("|      4    |    4    |       4       |\n");
+   printf("|      5    |    5    |       5       |\n");
+   printf("|      6    |    6    |       6       |\n");
+   printf("|      7    |    7    |       7       |\n");
+   printf("|      8    |   10    |       8       |\n");
+   printf("|      9    |   11    |       9       |\n");
+   printf("|     10    |   12    |       A       |\n");
+   printf("|     11    |   13    |       B       |\n");
+   printf("|     12    |   14    |       C       |\n");
+   printf("|     13    |   15    |       D       |\n");
+   printf("|     14    |   16    |       F       |\n");
+   printf("|     15    |   17    |       E       |\n");
+   printf("---------------------------------------\n");
+   
+return 0;
+}
+
+// probleam 2757
+
+#include<stdio.h>
+
+int main()
+{
+     int a, b, c;
+
+     // input three integers
+     scanf("%d %d %d",&a,&b,&c);
+
+     // displaying three integer by different way
+     printf("A = %d, B = %d, C = %d\n",a,b,c);
+     printf("A = %10d, B = %10d, C = %10d\n",a,b,c);
+     printf("A = %010d, B = %010d, C = %010d\n",a,b,c);
+     printf("A = %-10d, B = %-10d, C = %-10d\n",a,b,c);
+
+     return 0;
 }
