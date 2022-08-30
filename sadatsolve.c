@@ -1,4 +1,4 @@
-/ probleam number 1001
+// probleam number 1001
 
 #include <stdio.h>
 int main()
